@@ -12,4 +12,4 @@
 
 🏁 Off the keyboard, I’m a **4th Dan Tae Kwon Do Master**, competitive cyclist, and former marathon fundraiser — always pushing boundaries in work and life.
 
-📂 Visit trinitylogic.co.uk to see my full portfolio and learn how I help businesses transform complex challenges into clean, efficient solutions.
+📂 Visit [trinitylogic.co.uk](https://www.trinitylogic.co.uk/) to see my full portfolio and learn how I help businesses transform complex challenges into clean, efficient solutions.
