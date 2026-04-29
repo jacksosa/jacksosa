@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+
+  <!-- Ring — r=224, stroke=30px → inner edge at r=209 -->
+  <circle cx="256" cy="256" r="224" fill="#080808" stroke="#22D3EE" stroke-width="30"/>
+
+  <!-- T ─────────────────────────────────────────────────────────────────
+       Crossbar: top of letter, spans from near left circle edge (x=100)
+       to 16px before L's stem (x=274). Width=174, height=36.
+       Tightest corner (100,131): 200px from centre — inside r=206 ✓
+
+       Stem: 36px wide, right edge at x=222.
+       Gap to dot edge (256−18=238): 238−222 = 16px.
+  -->
+  <rect x="100" y="131" width="174" height="36" fill="#f0f0f0"/><!-- crossbar -->
+  <rect x="186" y="131" width="36"  height="250" fill="#f0f0f0"/><!-- stem     -->
+
+  <!-- L ─────────────────────────────────────────────────────────────────
+       Stem: 36px wide, left edge at x=290 (16px gap from dot right at 274).
+       Runs full letter height, same as T stem.
+
+       Foot: starts at L stem LEFT edge (x=290) and extends RIGHTWARD to
+       near the right circle edge (x=412). Width=122, height=36.
+       Tightest corner (412,381): 200px from centre — inside r=206 ✓
+  -->
+  <rect x="290" y="131" width="36"  height="250" fill="#f0f0f0"/><!-- stem -->
+  <rect x="290" y="345" width="122" height="36"  fill="#f0f0f0"/><!-- foot — extends RIGHT from stem -->
+
+  <!-- Central dot — diameter=36px, same weight as every bar -->
+  <circle cx="256" cy="256" r="22" fill="#22D3EE"/>
+
+</svg>
