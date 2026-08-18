@@ -14,7 +14,12 @@ git-synced setup.
 | `.gitconfig` | git identity + SSH commit signing |
 | `.p10k.zsh` | powerlevel10k prompt config |
 | `.bashrc` | bash fallback config |
-| `maintenance.sh` | weekly/monthly admin script (live at `~/Scripts/maintenance.sh`) |
+
+## Scripts
+
+Shell scripts — including `maintenance.sh` — live in a separate repo: **`Scripts`**
+(`github.com/jacksosa/Scripts`). Kept separate so each script only needs updating
+in one place.
 
 ## Install
 
@@ -25,6 +30,4 @@ cd "$(dirname "$0")"
 for f in .zshrc .zshenv .zprofile .profile .gitconfig .p10k.zsh .bashrc; do
   ln -sf "$PWD/$f" "$HOME/$f"
 done
-mkdir -p "$HOME/Scripts"
-ln -sf "$PWD/maintenance.sh" "$HOME/Scripts/maintenance.sh"
 ```
