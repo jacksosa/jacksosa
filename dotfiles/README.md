@@ -17,8 +17,8 @@ git-synced setup.
 
 ## Scripts
 
-Shell scripts — including `maintenance.sh` — live in a separate repo: **`Scripts`**
-(`github.com/jacksosa/Scripts`). Kept separate so each script only needs updating
+Shell scripts — including `maintenance.sh` — live in a separate repo: **`scripts`**
+(`github.com/jacksosa/scripts`). Kept separate so each script only needs updating
 in one place.
 
 ## Install

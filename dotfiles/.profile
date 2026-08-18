@@ -30,11 +30,4 @@ fi
 # Added by Toolbox App
 export PATH="$PATH:/home/jacksosa/.local/share/JetBrains/Toolbox/scripts"
 
-# Global app menu — export GTK menus via DBus so the panel can display them
-export GTK_MODULES="gail:atk-bridge:unity-gtk-module"
-export UBUNTU_MENUPROXY=1
 
-# BEGIN ANSIBLE MANAGED — GTK global menu
-export GTK_MODULES=gail:atk-bridge:unity-gtk-module
-export UBUNTU_MENUPROXY=1
-# END ANSIBLE MANAGED — GTK global menu
