@@ -1,0 +1,18 @@
+[user]
+	name = jacksosa
+	email = sam1_jackson@hotmail.com
+	signingkey = /home/jacksosa/.ssh/id_ed25519.pub
+[core]
+	autocrlf = input
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/jacksosa/.ssh/allowed_signers
